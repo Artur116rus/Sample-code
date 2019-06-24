@@ -1,12 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-interface multitMethod{
-    public function index();
-    public function edit($task_id);
-}
-
-class Multitasking extends CI_Controller implements multitMethod  {
+class Multitasking extends CI_Controller {
 
 
     public function __construct(){
